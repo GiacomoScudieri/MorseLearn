@@ -1,16 +1,18 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
     <head>
         <title>alphabet</title>
 
-        <link rel="stylesheet" href="css files/alphabettable.css">
+        <link rel="stylesheet" href="alpha.css">
     
     </head>
 
-    <body>
+    <body bgcolor="grey">
         
         <h1 align="center">Morse alphabet</h1>
-<br>
+        
+        <p align="center">Press the letters to hear the sounds!</p>
+        
         <table align="center" class="alph">
             <tr class="c">
                 <th>Letters</th>
@@ -23,134 +25,284 @@
                 <th>Code</th>
             </tr>
             <tr class="b">
-                <td>A</td>
+                <td><button class="sound" onclick="audioa.play();">A</button></td>
                 <td>._</td>
-                <td>N</td>
+                <td><button class="sound" onclick="audion.play();">N</button></td>
                 <td>_.</td>
-                <td>0</td>
+                <td><button class="sound" onclick="audio0.play();">0</button></td>
                 <td>_ _ _ _ _</td>
-                <td>.</td>
+                <td><button class="sound" onclick="audiodot.play();">.</button></td>
                 <td>._._._</td>
             </tr>
             <tr class="a">
-                <td>B</td>
+                <td><button class="sound" onclick="audiob.play();">B</button></td>
                 <td>_...</td>
-                <td>O</td>
+                <td><button class="sound" onclick="audioo.play();">O</button></td>
                 <td>_ _ _</td>
-                <td>1</td>
+                <td><button class="sound" onclick="audio1.play();">1</button></td>
                 <td>._ _ _ _ </td>
-                <td>,</td>
+                <td><button class="sound" onclick="audiovir.play();">,</button></td>
                 <td>_ _.._ _</td>
             </tr>
             <tr class="b">
-                <td>C</td>
+                <td><button class="sound" onclick="audioc.play();">C</button></td>
                 <td>_._.</td>
-                <td>P</td>
+                <td><button class="sound" onclick="audiop.play();">P</button></td>
                 <td>._ _.</td>
-                <td>2</td>
+                <td><button class="sound" onclick="audio2.play();">2</button></td>
                 <td>.._ _ _</td>
-                <td>:</td>
+                <td><button class="sound" onclick="audio2dot.play();">:</button></td>
                 <td>_ _ _...</td>
             </tr>
             <tr class="a">
-                <td>D</td>
+                <td><button class="sound" onclick="audiod.play();">D</button></td>
                 <td>-..</td>
-                <td>Q</td>
+                <td><button class="sound" onclick="audioq.play();">Q</button></td>
                 <td>_ _._</td>
-                <td>3</td>
+                <td><button class="sound" onclick="audio3.play();">3</button></td>
                 <td>..._ _</td>
-                <td>?</td>
+                <td><button class="sound" onclick="audiotf.play();">?</button></td>
                 <td>.._ _..</td>
             </tr>
             <tr class="b">
-                <td>E</td>
+                <td><button class="sound" onclick="audioe.play();">E</button></td>
                 <td>.</td>
-                <td>R</td>
+                <td><button class="sound" onclick="audior.play();">R</button></td>
                 <td>._.</td>
-                <td>4</td>
+                <td><button class="sound" onclick="audio4.play();">4</button></td>
                 <td>...._</td>
-                <td>=</td>
-                <td>_...._</td>
+                <td><button class="sound" onclick="audiougu.play();">=</button></td>
+                <td>_..._</td>
             </tr>
             <tr class="a">
-                <td>F</td>
+                <td><button class="sound" onclick="audiof.play();">F</button></td>
                 <td>.._.</td>
-                <td>S</td>
+                <td><button class="sound" onclick="audios.play();">S</button></td>
                 <td>...</td>
-                <td>5</td>
+                <td><button class="sound" onclick="audio5.play();">5</button></td>
                 <td>.....</td>
-                <td>-</td>
+                <td><button class="sound" onclick="audiotr.play();">-</button></td>
                 <td>_...._</td>
             </tr>
             <tr class="b">
-                <td>G</td>
+                <td><button class="sound" onclick="audiog.play();">G</button></td>
                 <td>_ _.</td>
-                <td>T</td>
+                <td><button class="sound" onclick="audiot.play();">T</button></td>
                 <td>_</td>
-                <td>6</td>
+                <td><button class="sound" onclick="audio6.play();">6</button></td>
                 <td>_....</td>
-                <td>(</td>
+                <td><button class="sound" onclick="audiosin.play();">(</button></td>
                 <td>_._ _.</td>
             </tr>
             <tr class="a">
-                <td>H</td>
+                <td><button class="sound" onclick="audioh.play();">H</button></td>
                 <td>...</td>
-                <td>U</td>
+                <td><button class="sound" onclick="audiou.play();">U</button></td>
                 <td>.._</td>
-                <td>7</td>
+                <td><button class="sound" onclick="audio7.play();">7</button></td>
                 <td>_ _...</td>
-                <td>)</td>
+                <td><button class="sound" onclick="audiodes.play();">)</button></td>
                 <td>_._ _._</td>
             </tr>
             <tr class="b">
-                <td>I</td>
+                <td><button class="sound" onclick="audioi.play();">I</button></td>
                 <td>..</td>
-                <td>V</td>
+                <td><button class="sound" onclick="audiov.play();">V</button></td>
                 <td>..._</td>
-                <td>8</td>
+                <td><button class="sound" onclick="audio8.play();">8</button></td>
                 <td>_ _ _..</td>
-                <td>"</td>
+                <td><button class="sound" onclick="audio2ap.play();">"</button></td>
                 <td>._.._.</td>
             </tr>
             <tr class="a">
-                <td>J</td>
+                <td><button class="sound" onclick="audioj.play();">J</button></td>
                 <td>._ _ _</td>
-                <td>W</td>
+                <td><button class="sound" onclick="audiow.play();">W</button></td>
                 <td>._ _</td>
-                <td>9</td>
+                <td><button class="sound" onclick="audio9.play();">9</button></td>
                 <td>_ _ _ _.</td>
-                <td>'</td>
+                <td><button class="sound" onclick="audioap.play();">'</button></td>
                 <td>._ _ _ _.</td>
             </tr>
             <tr class="b">
-                <td>K</td>
+                <td><button class="sound" onclick="audiok.play();">K</button></td>
                 <td>_._</td>
-                <td>X</td>
+                <td><button class="sound" onclick="audiox.play();">X</button></td>
                 <td>_.._</td>
                 <td></td>
                 <td></td>
-                <td>/</td>
+                <td><button class="sound" onclick="audioslash.play();">/</button></td>
                 <td>_.._.</td>
             </tr>
             <tr class="a">
-                <td>L</td>
+                <td><button class="sound" onclick="audiol.play();">L</button></td>
                 <td>._..</td>
-                <td>Y</td>
+                <td><button class="sound" onclick="audioy.play();">Y</button></td>
                 <td>_._ _</td>
                 <td></td>
                 <td></td>
-                <td>Underlined</td>
+                <td><button class="sound" onclick="audiounder.play();">Underlined</button></td>
                 <td>.._ _._</td>
             </tr>
             <tr class="b">
-                <td>M</td>
+                <td><button class="sound" onclick="audiom.play();">M</button></td>
                 <td>_ _</td>
-                <td>Z</td>
+                <td><button class="sound" onclick="audioz.play();">Z</button></td>
                 <td>_ _..</td>
                 <td></td>
                 <td></td>
-                <td>@</td>
+                <td><button class="sound" onclick="audioat.play();">@</button></td>
                 <td>._ _._.</td>
             </tr>
+
+            <script type="text/javascript">
+                const audioa = new Audio();
+                audioa.src = "./a.mp3";
+
+                const audiob = new Audio();
+                audiob.src = "./b.mp3";
+
+                const audioc = new Audio();
+                audioc.src = "./c.mp3";
+
+                const audiod = new Audio();
+                audiod.src = "./d.mp3";
+
+                const audioe = new Audio();
+                audioe.src = "./e.mp3";
+
+                const audiof = new Audio();
+                audiof.src = "./f.mp3";
+
+                const audiog = new Audio();
+                audiog.src = "./g.mp3";
+
+                const audioh = new Audio();
+                audioh.src = "./h.mp3";
+
+                const audioi = new Audio();
+                audioi.src = "./i.mp3";
+
+                const audioj = new Audio();
+                audioj.src = "./j.mp3";
+
+                const audiok = new Audio();
+                audiok.src = "./k.mp3";
+
+                const audiol = new Audio();
+                audiol.src = "./l.mp3";
+
+                const audiom = new Audio();
+                audiom.src = "./m.mp3";
+
+                const audion = new Audio();
+                audion.src = "./n.mp3";
+
+                const audioo = new Audio();
+                audioo.src = "./o.mp3";
+
+                const audiop = new Audio();
+                audiop.src = "./p.mp3";
+
+                const audioq = new Audio();
+                audioq.src = "./q.mp3";
+
+                const audior = new Audio();
+                audior.src = "./r.mp3";
+
+                const audios = new Audio();
+                audios.src = "./s.mp3";
+
+                const audiot = new Audio();
+                audiot.src = "./t.mp3";
+
+                const audiou = new Audio();
+                audiou.src = "./u.mp3";
+
+                const audiov = new Audio();
+                audiov.src = "./v.mp3";
+
+                const audiow = new Audio();
+                audiow.src = "./w.mp3";
+
+                const audiox = new Audio();
+                audiox.src = "./x.mp3";
+
+                const audioy = new Audio();
+                audioy.src = "./y.mp3";
+
+                const audioz = new Audio();
+                audioz.src = "./z.mp3";
+
+                const audio0 = new Audio();
+                audio0.src = "./sound0.mp3";
+
+                const audio1 = new Audio();
+                audio1.src = "./sound1.mp3";
+
+                const audio2 = new Audio();
+                audio2.src = "./sound2.mp3";
+
+                const audio3 = new Audio();
+                audio3.src = "./sound3.mp3";
+
+                const audio4 = new Audio();
+                audio4.src = "./sound4.mp3";
+
+                const audio5 = new Audio();
+                audio5.src = "./sound5.mp3";
+
+                const audio6 = new Audio();
+                audio6.src = "./sound6.mp3";
+
+                const audio7 = new Audio();
+                audio7.src = "./sound7.mp3";
+
+                const audio8 = new Audio();
+                audio8.src = "./sound8.mp3";
+
+                const audio9 = new Audio();
+                audio9.src = "./sound9.mp3";
+
+                const audiodot = new Audio();
+                audiodot.src = "./sound..mp3";
+
+                const audiovir = new Audio();
+                audiovir.src = "./sound,.mp3";
+
+                const audio2dot = new Audio();
+                audio2dot.src = "./sound...mp3";
+
+                const audiotf = new Audio();
+                audiotf.src = "./sounddomanda.mp3";
+
+                const audiougu = new Audio();
+                audiougu.src = "./sound=.mp3";
+
+                const audiotr = new Audio();
+                audiotr.src = "./sound-.mp3";
+
+                const audiosin = new Audio();
+                audiosin.src = "./sound(.mp3";
+
+                const audiodes = new Audio();
+                audiodes.src = "./sound).mp3";
+
+                const audio2ap = new Audio();
+                audio2ap.src = "./sound2'.mp3";
+
+                const audioap = new Audio();
+                audioap.src = "./sound'.mp3";
+
+                const audioslash = new Audio();
+                audioslash.src = "./soundslash.mp3";
+
+                const audiounder = new Audio();
+                audiounder.src = "./soundunder.mp3";
+
+                const audioat = new Audio();
+                audioat.src = "./sound@.mp3";
+            </script>
         </table>
     </body>
+</html>
