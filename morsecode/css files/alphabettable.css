@@ -51,8 +51,9 @@ tr{
 button{
     color: grey;
     background-color: transparent;
-    color: black;
+    color: rgb(93, 40, 104);
     border: none;
+    font-weight: bolder;
 }
 button:hover{
     background-color: rgb(117, 117, 117);
