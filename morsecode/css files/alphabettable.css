@@ -3,6 +3,10 @@ h1
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 body
 {
     background-color: rgb(44, 44, 44);
@@ -43,4 +47,16 @@ td{
 tr{
     border-bottom: 1px solid rgb(0, 0, 0);
     
+}
+button{
+    color: grey;
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+button:hover{
+    background-color: rgb(117, 117, 117);
+}
+button:active{
+    background-color: rgb(112, 112, 112);
 }
