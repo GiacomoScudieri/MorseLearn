@@ -14,11 +14,12 @@ h1
 }
 .user-section
 {
+   
    width: 15vw;
    background-color: rgb(126, 126, 126);
    border-radius: 10px;
    box-shadow: 0 0 15px black;
-   flex-shrink: 3;
+   flex-shrink: 1;
    
 }
 .user-flexbox
@@ -119,7 +120,7 @@ h1
 }
 .mode-name
 {
-    color: black;
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     margin-left: 20px;
@@ -132,6 +133,7 @@ h1
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
+    font-size: 20px;
 }
 .modes-list
 {
@@ -150,7 +152,7 @@ h1
     font-weight: bold;
     transition-duration: 0.3s;
 }
-@media only screen and (max-width:600px)
+@media only screen and (max-width:800px)
 {
     h1
     {   
@@ -169,18 +171,26 @@ h1
     }
     .user-flexbox
     {
+        position: relative;
         align-items: center;
         justify-content: center;
         display: flex;
     }
     .user-section
-    {
-        width: 40vw;
-
+    {   
+        position: absolute;
+        width: 50vw;
+        margin-left: 0;
+        margin-top: 0;
+        margin-right: 0;
     }
     .user-name
     {
-        visibility: hidden;
+        font-size: 17px;
+    }
+    .pfp{
+        width: 45px;
+        height: 45px;
     }
 }
 .mode-end:hover
@@ -234,3 +244,5 @@ h1
 {
     background-color: rgb(180, 180, 180);
 }
+
+
