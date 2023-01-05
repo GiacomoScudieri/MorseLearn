@@ -1,0 +1,131 @@
+body
+{
+    background-color: rgb(26, 26, 26);
+}
+.game-flexbox
+{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    
+}
+.letter-section
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 75vw;
+    background-color: rgb(93, 40, 104);
+    box-shadow: 0 0 15px black;
+    border-radius: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+
+.score-section
+{
+    height: 50px;
+    width: 10vw;
+    background-color: rgb(76, 76, 76);
+    box-shadow: 0 0 15px black;
+    border-radius: 10px;    
+}
+.button-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+    column-gap: 13px;
+    row-gap: 1px;
+    height: 300px;
+    width: 40vw;
+    background-color: rgb(76, 76, 76);
+    box-shadow: 0 0 15px black;
+    border-radius: 10px;
+
+}
+.short-button
+{
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    background-color:rgb(126, 126, 126);
+    margin-left: 2%;
+    height: 70%;
+    font-weight: bold;
+    font-size: 15px;
+    width: 45%;
+}
+.long-button
+{
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    background-color:rgb(126, 126, 126);
+    margin-right: 2%;
+    height: 70%;
+    font-weight: bold;
+    font-size: 50px;
+    width: 45%;
+}
+.long-button, .short-button
+{
+    transition-duration: 0.2s;
+}
+.long-symbol
+{
+    background-color:rgb(52, 52, 52) ;
+    border-radius: 10px;    
+    border: 1px solid black;
+    width: 10%;
+    height: 3%;
+    position: relative;
+    left: 45%;
+}
+.space-button
+{
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    background-color:rgb(126, 126, 126);
+    margin-right: 2%;
+    height: 20%;
+    font-weight: bold;
+    font-size: 50px;
+    width: 60%;
+
+}
+.score
+{
+    background-color: aqua;
+}
+.long-button:hover,.short-button:hover,.space-button:hover
+{
+    cursor: pointer;
+    background-color:rgb(151, 151, 151);
+    
+}
+.long-button:active,.short-button:active,.space-button:active
+{
+    cursor: pointer;
+    background-color: rgb(180, 180, 180);
+
+}
+@media only screen and (max-width:600px)
+{
+    .letter-section
+    {
+        width:90vw;
+    }
+    .button-section
+    {
+        width:80vw;
+        height: 250px;
+    }
+}
