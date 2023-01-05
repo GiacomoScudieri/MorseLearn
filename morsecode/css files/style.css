@@ -8,7 +8,7 @@ h1
     color: white;
     margin-left: 20px;
     display: inline-block;
-    font-size: 25px;
+    font-size: 30px;
     text-shadow:0 0 15px black;
     font-weight: lighter;
 }
@@ -61,12 +61,13 @@ h1
 .dashboard
 {
     position: relative;
-    background-color: rgb(76, 76, 76);
     width: 50vw;
     height: 300px;
+    margin-top: 100px;
+    background-color: rgb(76, 76, 76);
     box-shadow: 0 0 15px black;
     border-radius: 10px;
-    margin-top: 100px;
+
 }
 .dashboard-flexbox
 {
@@ -147,6 +148,20 @@ h1
     margin-top: 10px;
     background-color:rgb(126, 126, 126);
     width: 200px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+.play-button
+{
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color:rgb(93, 40, 104);
+    color: white;
+    width: 150px;
     height: 50px;
     font-size: 15px;
     font-weight: bold;
@@ -244,5 +259,17 @@ h1
 {
     background-color: rgb(180, 180, 180);
 }
+.play-button:hover
+{
+    width:175px ;
+    cursor: pointer;
+    background-color:rgb(127, 77, 137);
+}
+.play-button:active
+{
+    background-color: rgb(133, 101, 139);
+}
+
+
 
 
