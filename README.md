@@ -1,4 +1,4 @@
-# MorseLearn
+# MorseLearn.com
 We are a team of two developers and we are creating a website thanks to wich you can easily learn Morse code and test your knowledge and memory.
 We feature a variety of gamemodes and minigames such as:
 
