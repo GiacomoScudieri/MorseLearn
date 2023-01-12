@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>logotry</title>
+        <link rel="stylesheet" href="logotrystyle.css">
+    </head>
+    <body>
+        <div class="action">
+            <div class="profile" onclick="menuToggle();">
+                <img src="profilepic.jpeg">
+            </div>
+            <div class="menu">
+                <h3>Finamore <br> <span>Italy</span></h3>
+
+                <ul>
+                    <li><img src="profile.png"><a href="profile page.html">My Profile</a></li>
+                    <li><img src="profile.png"><a href="#">Settings</a></li>
+                    <li><img src="profile.png"><a href="#">Help</a></li>
+                    <li><img src="profile.png"><a href="#">Log Out</a></li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            function menuToggle(){
+                const toggleMenu = document.querySelector('.menu');
+                toggleMenu.classList.toggle('active')
+            }
+        </script>
+    </body>
+</html>
