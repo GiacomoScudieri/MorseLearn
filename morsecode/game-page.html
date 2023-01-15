@@ -3,22 +3,27 @@
     <head>
         <link rel="stylesheet" href="css files/game-page-file.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-        
+
     </head>
     <body>
-        <script src="scripts/game-script.js"></script>
         <div class="game-flexbox">
             <div class="letter-section">
-                <p class="input-text">Letter</p>        
+                <p class="input-text">Letter</p>
+                <p class="input-text" id="pressed"> </p>        
             </div>  
             <div class="button-section">
-                <button class="short-button" onclick="audioShort.play()">⚫</button>
-                <button class="long-button" onclick="audioLong.play()">
+                <button class="short-button"  onclick ="addShort();changeTextMorse();">⚫</button>
+                <button class="long-button" onclick ="addLong();changeTextMorse();">
                     <div class="long-symbol"></div>
                 <button class="space-button">
                     <div class="long-symbol"></div>
                 </button>
+                <button class="send-button">
+
             </div>
+
         </div>  
+        <script src="game-script.js"></script>
+
     </body>
 </html>
